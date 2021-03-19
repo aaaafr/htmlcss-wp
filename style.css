@@ -15,10 +15,9 @@ body{
 
 }
 
-/* .main_container{
+.main_container{
     background-color: lightgray;
-   height: 1000px;
-} */
+} 
 
 .clearfix::after{
     content:"";
@@ -46,6 +45,7 @@ a{
 
 .main_container{
     background-color: white;
+    height:1300px;
 
 } 
 
@@ -67,7 +67,8 @@ a{
 
 }
 
-h1,p{
+
+ .title_image{
     position: relative;
     top: 220px;
     left: 120px;
@@ -78,40 +79,100 @@ h1,p{
 }
 
 .title{
-    background-color: lightcoral;
+    background-color:white;
     width:100%;
-    height: 200px;
+    font-weight:lighter;
     
 }
 
+#black_title{
+    color: black;
+    font-size: 40px;
+}
+
+#gray_title{
+    color: dimgrey;
+    font-size: 10px;
+}
+
+
+
+.colonne{
+    width:100%;
+    height:100%;
+    margin-top: 20px;
+
+    
+}
+
+img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    border-radius: 30px;
+    filter: brightness(0.8); 
+
+
+    
+
+}
+
+
 .description1{
-    background-color: rgb(216, 93, 185);
-    width:20%;
-    height:400px;
+    background-color: white;
+    width:25%; 
+    height: 400px;
     float:left;
+    
 }
 
 .description2{
-    background-color: rgb(124, 57, 124);
-    width:60%;
-    height:400px;
+    background-color: white;
+    width:50%;
+    height: 400px;
     float:left;
+
 }
 
 
 .description3{
-    background-color: rgb(148, 65, 151);
-    width:20%;
+    background-color: white;
+    width:25%;
     height:400px;
     float:left;
 }
 
-footer{
-    background-color:rgb(101, 64, 145);
-    width:100%;
-    height:100px;
+p { 
+    vertical-align: bottom;
+    margin: 20px; 
+
 }
 
+.text_black{
+    color:black;
+    font-weight: bolder;
+}
+
+.text_gray{
+    color:gray;
+}
+
+footer{
+    background-color:white;
+    width:100%;
+  
+
+    
+}
+
+#last_paragraph{
+    text-align: center;
+    color:gray;
+}
+
+span{
+    color:red;
+}
 
 
 
